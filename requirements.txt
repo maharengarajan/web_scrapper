@@ -2,3 +2,15 @@ Flask
 beautifulsoup4
 requests
 urllib3
+soupsieve #soupsieve
+certifi
+chardet
+click
+gunicorn
+idna
+itsdangerous
+Jinja2
+MarkupSafe
+six
+Werkzeug
+pymongo

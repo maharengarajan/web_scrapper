@@ -9,10 +9,10 @@ app = Flask(__name__)
 #route to display home page
 @app.route('/', methods=['GET'])
 def home_page():
-    return render_template()
+    return render_template("index.html")
 
 # route to show the review comments in a web UI
-@app.route('/', methods=['GET','POST'])
+@app.route('/review', methods=['GET','POST'])
 def index():
     if request.method == 'POST':
         try:
